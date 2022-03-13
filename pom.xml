@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>Myapp_relases</id>
       <name>Myapp_relases</name>
-      <url>http://ec2-3-84-220-28.compute-1.amazonaws.com:8081/repository/Myapp_relases/</url>
+      <url>http://172.31.81.196:8081/repository/Myapp_relases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>myapp_snap</id>
       <name>myapp_snap</name>
-      <url>http://ec2-3-84-220-28.compute-1.amazonaws.com:8081/repository/myapp_snap/</url>
+      <url>http://172.31.81.196:8081/repository/myapp_snap/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
