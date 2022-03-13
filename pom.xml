@@ -18,19 +18,17 @@
 <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>scp://repo/maven2</url>
+      <id>Myapp_relases</id>
+      <name>Myapp_relases</name>
+      <url>http://ec2-3-84-220-28.compute-1.amazonaws.com:8081/repository/Myapp_relases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
-      <url>sftp://propellers.net/maven</url>
+      <id>myapp_snap</id>
+      <name>myapp_snap</name>
+      <url>http://ec2-3-84-220-28.compute-1.amazonaws.com:8081/repository/myapp_snap/</url>
       <layout>legacy</layout>
     </snapshotRepository>
-    ...
   </distributionManagement>
-
 </project>
